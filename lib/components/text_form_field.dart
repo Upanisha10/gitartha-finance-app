@@ -4,6 +4,7 @@ import 'package:gitartha/validators/formValidators.dart';
 Widget createTextFormFeild(String fieldName, TextEditingController controller){
   return TextFormField(
       controller: controller,
+      style: TextStyle(fontFamily: "Futura", color: AppColors.descriptionColor),
       validator: (value){
         if(fieldName == 'EMAIL ADDRESS') return FormValidators.validateEmail(controller.text.trim());
         else if(fieldName == 'PASSWORD') return FormValidators.validatePassword(controller.text.trim());

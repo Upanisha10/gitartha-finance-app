@@ -73,7 +73,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
                         SizedBox(
-                          height: constraints.maxHeight * 0.07,
+                          height: constraints.maxHeight * 0.06,
                           child: ElevatedButton(
                               style: ElevatedButton.styleFrom(
                                 backgroundColor: AppColors.backgroundColor,
