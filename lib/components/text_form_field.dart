@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:gitartha/constants/colors.dart';
 import 'package:gitartha/validators/formValidators.dart';
+
 Widget createTextFormFeild(String fieldName, TextEditingController controller){
   return TextFormField(
       controller: controller,
@@ -37,7 +38,14 @@ Widget createTextFormFeild(String fieldName, TextEditingController controller){
             width: 2
           ),
           borderRadius: BorderRadius.circular(20)
-        )
+        ),
+        focusedErrorBorder: OutlineInputBorder(
+            borderSide: BorderSide(
+                color: Colors.red,
+                width: 2
+            ),
+            borderRadius: BorderRadius.circular(20)
+        ),
       ),
   );
 }
