@@ -37,11 +37,13 @@ class _SignInScreenState extends State<SignInScreen> {
                   Center(child: buildLogoContainer(
                       constraints.maxHeight * 0.3)),
                   SizedBox(height: 10,),
+
                   Text('LOGIN', style: TextStyle(
                       fontSize: 45,
                       fontFamily: "Boowie",
                       color: AppColors.headingColor
                   ),),
+
                   Text('Already have an Account?', style: TextStyle(
                       fontSize: 20,
                       fontFamily: "Futura",
@@ -99,7 +101,6 @@ class _SignInScreenState extends State<SignInScreen> {
                       ),
                     ),
                   )
-
                 ],
               ),
             ),

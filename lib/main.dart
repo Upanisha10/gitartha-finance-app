@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:device_preview/device_preview.dart';
+import 'package:gitartha/screens/authentication_module/forgot_password.dart';
 import 'package:gitartha/screens/authentication_module/sign_in_screen.dart';
 import 'package:gitartha/screens/authentication_module/sign_up_screen.dart';
 
@@ -13,7 +14,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: SignInScreen(),
+      home: ForgotPasswordScreen(),
     );
   }
 }
